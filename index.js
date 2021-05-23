@@ -7,7 +7,7 @@ let mondayWork = function(activity="go to the office") {
 }
 function wrapAdjective(outer="*") {
   return function(inner="special") {
-    return `You are ${outer }${inner}${outer}!`;
+    return `You are ${outer}${inner}${outer}!`;
   }
 }
 const Calculator = {
